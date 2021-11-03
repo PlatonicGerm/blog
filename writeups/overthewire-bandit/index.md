@@ -398,7 +398,7 @@ vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 
 closed
 ```
-However, this time we don't recieve the password, but a private `ssh` key. We can paste this key into a file in the `/tmp` directory using either `vi` or `nano`. We then need to `chmod` the file so that it has the correct permissions so that we can use `ssh` as the next user. The password is stored in /etc/bandit_pass/bandit17`.
+However, this time we don't recieve the password, but a private `ssh` key. We can paste this key into a file in the `/tmp` directory using either `vi` or `nano`. We then need to `chmod` the file so that it has the correct permissions so that we can use `ssh` as the next user. The password is stored in `/etc/bandit_pass/bandit17`.
 ```
 bandit16@bandit:~$ vi /tmp/platonicgerm.key
 bandit16@bandit:~$ cat /tmp/platonicgerm.key
