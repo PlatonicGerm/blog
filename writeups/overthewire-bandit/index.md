@@ -273,7 +273,7 @@ The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
 ## Level 13
 
-The password is stored in `/etc/dandit_pass/bindit14`, however can only be read by `bandit14`. We do have a private `ssh` key to log in as `bandit14`. If we `ls`, we can find the file containing the private `ssh` key.
+The password is stored in `/etc/bandit_pass/bandit14`, however can only be read by `bandit14`. We do have a private `ssh` key to log in as `bandit14`. If we `ls`, we can find the file containing the private `ssh` key.
 ```
 bandit13@bandit:~$ ls                                                                        [1/258]
 sshkey.private                                                                                      
