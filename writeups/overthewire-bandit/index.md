@@ -10,7 +10,7 @@ bandit0@bandit:~$
 ```
 
 ## Level 0
-The password for the next level is stored in a file named `readme`. We can just `cat` `readme` for the password.
+The password for the next level is stored in a file named `readme`. We can just `cat readme` for the password.
 ```
 bandit0@bandit:~$ cat readme
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
@@ -169,10 +169,6 @@ bandit8@bandit:~$ cat data.txt
 VkBAEWyIibVkeURZV5mowiGg6i3m7Be0                                                                    
 zdd2ctVveROGeiS2WE3TeLZMeL5jL7iM 
 ...
-bandit8@bandit:~$ cat data.txt                    
-VkBAEWyIibVkeURZV5mowiGg6i3m7Be0                                                                    
-zdd2ctVveROGeiS2WE3TeLZMeL5jL7iM 
-...
 flyKxCbHB8uLTaIB5LXqQNuJj3yj00eh
 w4zUWFGTUrAAh8lNkS8gH3WK2zowBEkA
 bandit8@bandit:~$ wc -l data.txt 
@@ -277,7 +273,7 @@ The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
 ## Level 13
 
-The password is stored in `/etc/dandit_pass/bindit14, however can only be read by `bandit14`. We do have a private `ssh` key to log in as `bandit14`. If we `ls`, we can find the file containing the private `ssh` key.
+The password is stored in `/etc/dandit_pass/bindit14`, however can only be read by `bandit14`. We do have a private `ssh` key to log in as `bandit14`. If we `ls`, we can find the file containing the private `ssh` key.
 ```
 bandit13@bandit:~$ ls                                                                        [1/258]
 sshkey.private                                                                                      
