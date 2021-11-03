@@ -1,5 +1,4 @@
 # Vulnhub - IA: Keyring (1.0.1)
-![image](img/box start.jpg)
 
 IA: Keyring (1.0.1) is a boot-to-root vulnerable machine. It is available to download from [VulnHub](https://www.vulnhub.com/entry/ia-keyring-101,718/).
 
