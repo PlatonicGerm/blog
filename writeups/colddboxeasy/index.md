@@ -149,7 +149,7 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 $ 
 ```
 
-And we have gained a `reverse-shell` on the host! Now we need to upgrate our `shell` to a full `tty`. We can execute a `python` one-liner to get a better shell, then using some `magic` by pressing `ctrl-z` to background the shell, executing `stty raw -echo`, `fg`, pressing `enter` twice, then `export TERM=screen`, we can get a nice, full `tty`.
+And we have gained a `reverse-shell` on the host! Now we need to upgrade our `shell` to a full `tty`. We can execute a `python` one-liner to get a better shell, then using some `magic` by pressing `ctrl-z` to background the shell, executing `stty raw -echo`, `fg`, pressing `enter` twice, then `export TERM=screen`, we can get a nice, full `tty`.
 
 ```
 $ which python3
