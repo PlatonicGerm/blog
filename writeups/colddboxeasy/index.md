@@ -1,4 +1,4 @@
-# Vulnhub = Colddbox: Easy
+# Vulnhub - Colddbox: Easy
 
 Colddbox: Easy is a boot-to-root vulnerable machine. It is available to download from [VulnHub](https://www.vulnhub.com/entry/colddbox-easy,586/).
 
