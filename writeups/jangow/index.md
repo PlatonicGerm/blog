@@ -362,9 +362,9 @@ jangow01@jangow01:~$ wget http://192.168.1.73:443/40839.c
 Conectando-se a 192.168.1.73:443... conectado.
 A requisição HTTP foi enviada, aguardando resposta... 200 OK
 Tamanho: 4814 (4K) [text/x-csrc]
-Salvando em: “47169.c”
+Salvando em: “40839.c”
 
-47169.c             100%[===================>]  4,70K  --.-KB/s    in 0s
+40839.c             100%[===================>]  4,70K  --.-KB/s    in 0s
 
 2021-12-21 19:49:37 (70,7 MB/s) - “40839.c” salvo [4814/4814]
 ```
