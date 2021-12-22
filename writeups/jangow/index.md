@@ -369,7 +369,7 @@ Salvando em: “40839.c”
 2021-12-21 19:49:37 (70,7 MB/s) - “40839.c” salvo [4814/4814]
 ```
 
-Now we can compile the exploit and give it a try.
+Now we can compile the exploit and give it a try. For some reason, it appeared the exploit did hang, however if we could just break-out of the command using `CTRL-Z` and still check if it was successful.
 
 ```bash
 jangow01@jangow01:~$ gcc -pthread 40839.c -lcrypt
